@@ -1,0 +1,44 @@
+2026-11-21 15:48:30,918 | INFO | Servicio S001 registrado correctamente.
+2026-11-21 15:48:30,919 | INFO | Servicio E001 registrado correctamente.
+2026-11-21 15:48:30,919 | INFO | Servicio A001 registrado correctamente.
+2026-11-21 15:48:30,920 | INFO | Cliente C001 registrado correctamente.
+2026-11-21 15:48:30,921 | INFO | Finalizo la operacion de registro de cliente.
+2026-11-21 15:48:30,921 | INFO | Operacion '1. Registrar cliente valido' ejecutada correctamente.
+2026-11-21 15:48:30,922 | INFO | Cliente C002 registrado correctamente.
+2026-11-21 15:48:30,922 | INFO | Finalizo la operacion de registro de cliente.
+2026-11-21 15:48:30,923 | INFO | Operacion '2. Registrar segundo cliente' ejecutada correctamente.
+2026-11-21 15:48:30,923 | ERROR | Error al registrar cliente: El correo electronico no es valido.
+2026-11-21 15:48:30,923 | INFO | Finalizo la operacion de registro de cliente.
+2026-11-21 15:48:30,924 | ERROR | Operacion '3. Registrar cliente con correo incorrecto' fallida: El correo electronico no es valido.
+2026-11-21 15:48:30,924 | ERROR | Error al registrar cliente: El telefono debe contener solamente numeros.
+2026-11-21 15:48:30,924 | INFO | Finalizo la operacion de registro de cliente.
+2026-11-21 15:48:30,924 | ERROR | Operacion '4. Registrar cliente con telefono incorrecto' fallida: El telefono debe contener solamente numeros.
+2026-11-21 15:48:30,925 | INFO | Reserva R001 creada correctamente.
+2026-11-21 15:48:30,925 | INFO | Finalizo la operacion de creacion de reserva.
+2026-11-21 15:48:30,925 | INFO | Operacion '5. Crear reserva de sala' ejecutada correctamente.
+2026-11-21 15:48:30,926 | INFO | Reserva R001 confirmada.
+2026-11-21 15:48:30,926 | INFO | Operacion '6. Confirmar reserva' ejecutada correctamente.
+2026-11-21 15:48:30,926 | INFO | Reserva R001 procesada. Costo: 100000.00
+2026-11-21 15:48:30,926 | INFO | Operacion '7. Procesar reserva' ejecutada correctamente.
+2026-11-21 15:48:30,927 | ERROR | Operacion '8. Cancelar reserva procesada' fallida: No se puede cancelar una reserva procesada o cancelada.
+2026-11-21 15:48:30,928 | INFO | Finalizo la operacion de creacion de reserva.
+2026-11-21 15:48:30,928 | ERROR | Operacion '9. Crear reserva con cliente inexistente' fallida: No se encontro el cliente C999.
+2026-11-21 15:48:30,930 | INFO | Reserva R003 creada correctamente.
+2026-11-21 15:48:30,931 | INFO | Finalizo la operacion de creacion de reserva.
+2026-11-21 15:48:30,931 | INFO | Operacion '10. Crear reserva de equipo' ejecutada correctamente.
+2026-11-21 15:48:30,932 | INFO | Reserva R003 confirmada.
+2026-11-21 15:48:30,932 | INFO | Reserva R003 procesada. Costo: 60000.00
+2026-11-21 15:48:30,933 | INFO | Operacion '11. Confirmar y procesar alquiler de equipo' ejecutada correctamente.
+2026-11-21 15:48:30,933 | INFO | Reserva R004 creada correctamente.
+2026-11-21 15:48:30,933 | INFO | Finalizo la operacion de creacion de reserva.
+2026-11-21 15:48:30,933 | INFO | Operacion '12. Crear reserva de asesoria' ejecutada correctamente.
+2026-11-21 15:48:30,934 | INFO | Reserva R004 confirmada.
+2026-11-21 15:48:30,934 | INFO | Reserva R004 procesada. Costo: 216000.00
+2026-11-21 15:48:30,934 | INFO | Operacion '13. Confirmar y procesar asesoria' ejecutada correctamente.
+2026-11-21 15:48:30,934 | INFO | Disponibilidad del servicio S001 modificada a False
+2026-11-21 15:48:30,935 | INFO | Finalizo la operacion de creacion de reserva.
+2026-11-21 15:48:30,935 | ERROR | Operacion '14. Crear reserva con servicio no disponible' fallida: El servicio Sala de reuniones no esta disponible.
+2026-11-21 15:48:30,935 | INFO | Operacion '15. Buscar reservas del cliente C001' ejecutada correctamente.
+2026-11-21 15:48:30,936 | INFO | Operacion '16. Buscar reservas procesadas' ejecutada correctamente.
+2026-11-21 15:48:30,936 | ERROR | Operacion '17. Consultar reserva inexistente' fallida: No se encontro la reserva R999.
+2026-11-21 15:48:30,937 | ERROR | Operacion '18. Confirmar nuevamente una reserva procesada' fallida: Solamente se pueden confirmar reservas pendientes.
